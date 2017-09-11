@@ -14,6 +14,8 @@ size_t myStrlen(const char *string) {
     for( i= 0; string[i]!='\0' ; i++)
     ;
     return i;
+
+    //I like TamagoSando
 }
 
 char *myStrcat(char *dest, const char *src) {
