@@ -10,8 +10,10 @@ char *myStrcpy(char *dest, const char *src) {
 }
 
 size_t myStrlen(const char *string) {
-    int len = strlen(string);
-    return len;
+      int cnt=0;
+      while(string[cnt]!='\0'){
+      ++cnt;}
+      return cnt;
 }
 
 char *myStrcat(char *dest, const char *src) {
