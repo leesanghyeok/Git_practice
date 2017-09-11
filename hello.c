@@ -1,4 +1,5 @@
 #include "hello.h"
+#include <string.h>
 
 int main() {
     printf("hello world\n");
@@ -9,7 +10,8 @@ char *myStrcpy(char *dest, const char *src) {
 }
 
 size_t myStrlen(const char *string) {
-    return 0;
+    int len = strlen(string);
+    return len;
 }
 
 char *myStrcat(char *dest, const char *src) {
