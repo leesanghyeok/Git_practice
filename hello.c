@@ -9,7 +9,12 @@ char *myStrcpy(char *dest, const char *src) {
 }
 
 size_t myStrlen(const char *string) {
-    return 0;
+	int cnt = 0;
+	while(string[cnt] != '\0')
+	{
+		cnt++;
+	}
+    return cnt;
 }
 
 char *myStrcat(char *dest, const char *src) {
