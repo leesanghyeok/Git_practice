@@ -2,12 +2,15 @@
 #define HELLO
 
 #include <stdio.h>
+#include <string.h>
 
 // src 문자열을 dest 문자열에 복사하는 함수.
 char *myStrcpy(char *dest, const char *src);
 
 // string 문자열의 길이를 반환하는 함수.
-size_t myStrlen(const char *string);
+size_t myStrlen(const char *string) {
+	return strlen(string);
+}
 
 // src 문자열을 dest문자열 뒤에 붙이는 함수.
 char *myStrcat(char *dest, const char *src);
